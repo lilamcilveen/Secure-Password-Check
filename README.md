@@ -20,8 +20,8 @@
     - Special characters (!, $, #, %, etc.)
     - There can not be 3 or more consecutive characters (e.g. 'aaa').
  OR
+    
     - A 5 word password seperated by spaces
     - Each word must contain 3 or more characters
     - Only alphabetic characters A-Z or a-z (Latin alphabet)
-    
 Created on January 10, 2020.
