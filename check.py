@@ -11,9 +11,9 @@ def check_password(password):
   # at least 1 uppper and 1 lower char
   # at least 1 special char
 
-  x = [ i for i in password.split() ]
+  words = [ i for i in password.split() ]
 
-  if len(x) == 1:
+  if words == 1:
     r_p1 = re.compile('^(?=\S{12,}$)(?=.*?\d)(?=.*?[a-z])(?=.*?[A-Z])(?=.*?[^A-Za-z\s0-9])')
 
     s = re.search(r_p1, password)
@@ -21,11 +21,10 @@ def check_password(password):
       meets_requirements = True
 
   else:
-    w_count = len(x)
-    if w_count < 5:
+    if len(words) < 5:
       return False
-    for i in range(w_count):
-      if not (len(x[i]) > 2 and x[i].isalpha()):
+    for word in words:
+      if not (len(word) > 2 and word.isalpha()):
         return False
 
     meets_requirements = True
