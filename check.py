@@ -13,7 +13,7 @@ def check_password(password):
 
   words = [ i for i in password.split() ]
 
-  if words == 1:
+  if len(words) == 1:
     r_p1 = re.compile('^(?=\S{12,}$)(?=.*?\d)(?=.*?[a-z])(?=.*?[A-Z])(?=.*?[^A-Za-z\s0-9])')
 
     s = re.search(r_p1, password)
