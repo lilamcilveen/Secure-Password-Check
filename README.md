@@ -2,11 +2,11 @@
 
 ## How to run:
 
-- On Windows, enter `python check.py` into the command line.
-- On Linux, enter `python3 check.py` into the command line.
+- On *Windows*, enter `python check.py` into the command line.
+- On *Linux*, enter `python3 check.py` into the command line.
 - Once it is running, enter a password;
-- The program will return True if secure, and False if insecure.
-  - For example, `password!3712821JKL` will return True.
+- The program will return `True` if secure, and `False` if insecure.
+  - For example, `password!3712821JKL` will return `True`.
 
 
 ## Password Requirements:
