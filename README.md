@@ -27,7 +27,7 @@
 - There can not be 3 or more consecutive characters (e.g. 'aaa').
 
 
-  These types of passwords are difficult to remember and are becoming less ideal as the landscape of password cracking changes, ideal with a password manager.
+  These types of passwords are difficult to remember and are becoming less ideal in many scenarios as the landscape of password cracking changes, ideal with a password manager.
 
 
 ---
