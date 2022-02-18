@@ -16,7 +16,7 @@
 - Each word must contain 3 or more characters; and
 - Only alphabetic characters `A-Z` or `a-z` (Latin alphabet) are present.
 
-
+Ideally a long password of simple words you can remember.
 
 ##### Alternatively, it must:
 - Be 12 or more characters long;
@@ -26,10 +26,10 @@
 - Contain special characters (`!`, `$`, `#`, `%`, etc.); and
 - There can not be 3 or more consecutive characters (e.g. 'aaa').
 
+Ideal with a password manager.
 
-These types of passwords are difficult to remember and are becoming less ideal in many scenarios as the landscape of password cracking changes; ideal with a password manager.
-
-
+Shorter (i.e. eight character) passwords with entropy are difficult to remember and are becoming less ideal in most scenarios as technology evolves and the landscape of password cracking changes.
+Relevant: https://xkcd.com/936/
 ---
 
 Created on January 10, 2020.
